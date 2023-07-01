@@ -55,6 +55,9 @@ import router from '@/router';
             this.$router
             .push({ path: '/usersall' })
             .then(() => { this.$router.go() })
+          }else{
+            alert(data.message)
+            
           }
           
           // Perform additional actions based on the response
